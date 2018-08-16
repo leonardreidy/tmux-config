@@ -9,7 +9,36 @@ better and I only started using tmux this morning. For example, I like the
 default resizing key combo behaviour for panes. What we've got here, in any case,
 works well for now and may be updated little by little in the future. Either
 which way, this repo is basically just for me. If you find it useful, good for
-you! 
+you!
+
+*Notes*
+
+To run tmux with a custom config file:
+
+  ```
+    tmux -f <path-to-config> -L <any-socket-name-you-like>
+  ```
+
+For example:
+
+  ```
+    tmux -f tmux-config/.tmux.conf -L dummySocketName
+  ```
+
+Also, it's really cool to alias different variants of your tmux configuration
+like so:
+
+  ```
+    alias <aliasname>='tmux -f <path/to/config> -L <anySocketNameYouLike>'
+  ```
+
+For example, my `.bashrc` now includes the following alias:
+
+  ```
+    alias lmux='tmux -f ~/tmux/tony/tmux-config/.tmux.conf -L lmuxSocket'
+  ```
+  
+---
 
 [tmux](http://tmux.sourceforge.net/) is a terminal multiplexer.
 
