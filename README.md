@@ -1,3 +1,16 @@
+### Why I forked Tony's Repo
+
+Tony's _Tao of Tmux_ is a great ebook and the full-featured config he provides
+is really nice. For more about Tony's ebook and other things see below; I have
+not modified the README much.
+
+Although Tony's config is great, there are one or two little tweaks that suit me
+better and I only started using tmux this morning. For example, I like the
+default resizing key combo behaviour for panes. What we've got here, in any case,
+works well for now and may be updated little by little in the future. Either
+which way, this repo is basically just for me. If you find it useful, good for
+you! 
+
 [tmux](http://tmux.sourceforge.net/) is a terminal multiplexer.
 
 - Tested with tmux 1.5+.
